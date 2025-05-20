@@ -1,3 +1,8 @@
+# MenuTitle: Export SVG Font
+# -*- coding: utf-8 -*-
+__doc__="""
+Exports the current Glyphs font as an SVG font file to the Desktop.
+"""
 import GlyphsApp
 from fontTools.pens.svgPathPen import SVGPathPen
 import os
